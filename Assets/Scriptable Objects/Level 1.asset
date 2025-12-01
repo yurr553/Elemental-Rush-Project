@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1043008e6e72f3e43ac3bb8fbec3af54, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: Assembly-CSharp::Level
+  width: 5
+  height: 5
+  boardLayout:
+  - x: 2
+    y: 2
+    tileKind: 0
+  - x: 2
+    y: 3
+    tileKind: 4
+  - x: 2
+    y: 1
+    tileKind: 4
+  - x: 1
+    y: 2
+    tileKind: 4
+  - x: 3
+    y: 2
+    tileKind: 4
+  dots:
+  - {fileID: 8285580501951880858, guid: 137e0508532fff647b98effa7dee98d6, type: 3}
+  - {fileID: 5587839066960183173, guid: e4a2e419c0a02e54bb2b802338005241, type: 3}
+  - {fileID: 4493774920901883254, guid: 609066ca7cfc9404d92a4524fcfd6de0, type: 3}
+  scoreGoals: fa000000f4010000ee020000
+  endGameRequirements:
+    gameType: 1
+    counterValue: 200
+  levelGoals:
+  - numberNeeded: 15
+    numberCollected: 15
+    goalSprite: {fileID: 2763023158643484559, guid: 5a9f434df41172d43b4ddac7ea1638a0, type: 3}
+    matchValue: Gas
+  - numberNeeded: 4
+    numberCollected: 4
+    goalSprite: {fileID: -5677260234868313635, guid: afab342469d583f43ad0e67fd5cba59f, type: 3}
+    matchValue: AcidObs

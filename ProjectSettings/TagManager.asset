@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Grey Dot
+  - Cyan Dot
+  - Light Purple Dot
+  - Lime Dot
+  - Maroon Dot
+  - Orange Dot
+  - Pink Dot
+  - Yellow Dot
+  - Board
+  - Water
+  - Fire
+  - Ice
+  - Gas
+  - Metal
+  - Acid
+  - Breakable
+  - AcidObs
+  - FireObs
+  - MagmaObs
+  - IceObs
+  - RustObs
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1111796177
+    locked: 0
+  - name: Markers
+    uniqueID: 2654364331
+    locked: 0
+  - name: Particles
+    uniqueID: 624217389
+    locked: 0
+  m_RenderingLayers:
+  - Default

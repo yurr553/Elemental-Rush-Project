@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1043008e6e72f3e43ac3bb8fbec3af54, type: 3}
+  m_Name: Level 0
+  m_EditorClassIdentifier: Assembly-CSharp::Level
+  width: 3
+  height: 3
+  boardLayout:
+  - x: 1
+    y: 1
+    tileKind: 3
+  dots:
+  - {fileID: 8285580501951880858, guid: 137e0508532fff647b98effa7dee98d6, type: 3}
+  - {fileID: 6820262426692804110, guid: 8572b24a6add84a4d9300c41cf60b6ed, type: 3}
+  scoreGoals: 050000001900000032000000
+  endGameRequirements:
+    gameType: 0
+    counterValue: 15
+  levelGoals:
+  - numberNeeded: 3
+    numberCollected: 3
+    goalSprite: {fileID: 6049605792901559095, guid: c1e762d0b0f9ffb42b9f327f67b74efd, type: 3}
+    matchValue: Water
+  - numberNeeded: 1
+    numberCollected: 1
+    goalSprite: {fileID: 6891026753379930785, guid: fb8a8d4fd775c4c468155eb50982412c, type: 3}
+    matchValue: FireObs
